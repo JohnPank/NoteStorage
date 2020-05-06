@@ -1,0 +1,43 @@
+Using Java 8 Date and Time classes
+The PostgreSQL™ JDBC driver implements native support for the Java 8 Date and Time API (JSR-310) using JDBC 4.2.
+
+Table 5.1. Supported escaped numeric functions
+
+PostgreSQL™	Java SE 8
+DATE	LocalDate
+TIME [ WITHOUT TIMEZONE ]	LocalTime
+TIMESTAMP [ WITHOUT TIMEZONE ]	LocalDateTime
+TIMESTAMP WITH TIMEZONE	OffsetDateTime
+This is closely aligned with tables B-4 and B-5 of the JDBC 4.2 specification. Note that ZonedDateTime, Instant and OffsetTime / TIME [ WITHOUT TIMEZONE ] are not supported. Also note that all OffsetDateTime will instances will have be in UTC (have offset 0). This is because the backend stores them as UTC.
+
+Example 5.5. Reading Java 8 Date and Time values using JDBC
+
+Statement st = conn.createStatement();
+ResultSet rs = st.executeQuery("SELECT * FROM mytable WHERE columnfoo = 500");
+while (rs.next())
+{
+   System.out.print("Column 1 returned ");
+   LocalDate localDate = rs.getObject(1, LocalDate.class));
+   System.out.println(localDate);
+} rs.close();
+st.close();
+
+For other data types simply pass other classes to #getObject. Note that the Java data types needs to match the SQL data types in table 7.1.
+
+Example 5.5. Writing Java 8 Date and Time values using JDBC
+
+LocalDate localDate = LocalDate.now();
+PreparedStatement st = conn.prepareStatement("INSERT INTO mytable (columnfoo) VALUES (?)");
+st.setObject(1, localDate);
+st.executeUpdate(); st.close();
+
+
+
+
+22
+
+The SQL DATE type indeed only contains the date portion, not the time. But your column is apparently of TIMESTAMP type, so to get the full timestamp, use ResultSet#getTimestamp() instead.
+
+Date date = resultSet.getTimestamp("columnname");
+// ...
+It returns java.sql.Timestamp which is a subclass of java.util.Date, so the upcast is safe.

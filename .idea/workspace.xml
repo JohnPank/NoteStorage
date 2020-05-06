@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b543ea4a-d7c2-4947-b1f1-9c6a4cc05b62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/NoteStorage_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NoteStorage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/johnpank/notestorage/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/johnpank/notestorage/config/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/johnpank/notestorage/dao/NoteDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/johnpank/notestorage/dao/NoteDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/johnpank/notestorage/dao/NoteRowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/johnpank/notestorage/dao/UserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/johnpank/notestorage/dao/UserDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/johnpank/notestorage/models/Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/johnpank/notestorage/models/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/NoteStorage-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/appProperties.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/johnpank/notestorage/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/johnpank/notestorage/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/johnpank/notestorage/config/DBContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/johnpank/notestorage/dao/NoteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/johnpank/notestorage/dao/NoteDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/johnpank/notestorage/dao/NoteRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/johnpank/notestorage/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/johnpank/notestorage/dao/UserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/johnpank/notestorage/models/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/johnpank/notestorage/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/appProperties.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Тестовое задание Java 1 (1).docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NoteStorage" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NoteStorage" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NoteStorage" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1aCeF4rK9B2GvKFGsTfF8xCbVS5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql&#10;h2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.johnpank.notestorage.dao" />
+      <recent name="com.johnpank.notestorage.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JavaProject\NoteStorage\src\test\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JavaProject\NoteStorage\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.johnpank.notestorage.config" />
+      <recent name="com.johnpank.notestorage.dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.johnpank.notestorage.Main" />
+      <module name="NoteStorage.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoteDAOImplTest.createNote" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.johnpank.notestorage.dao.NoteDAOImplTest.createNote&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserDAOImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.johnpank.notestorage.dao.UserDAOImplTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserDAOImplTest.createUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.johnpank.notestorage.dao.UserDAOImplTest.createUser&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserDAOImplTest.createUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.johnpank.notestorage.dao.UserDAOImplTest.createUserTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.54" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com.johnpank : NoteStorage-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/notestorage" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_NoteStorage" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="18083" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.johnpank : NoteStorage-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.54" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/notestorage" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_NoteStorage" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="18083" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.NoteDAOImplTest.createNote" />
+      <item itemvalue="Gradle.UserDAOImplTest" />
+      <item itemvalue="Gradle.UserDAOImplTest.createUser" />
+      <item itemvalue="Gradle.UserDAOImplTest.createUserTest" />
+      <item itemvalue="Tomcat Server.Tomcat 8" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.UserDAOImplTest" />
+        <item itemvalue="Gradle.NoteDAOImplTest.createNote" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.UserDAOImplTest.createUserTest" />
+        <item itemvalue="Gradle.UserDAOImplTest.createUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b543ea4a-d7c2-4947-b1f1-9c6a4cc05b62" name="Default Changelist" comment="" />
+      <created>1586243895936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586243895936</updated>
+      <workItem from="1586243897254" duration="204000" />
+      <workItem from="1586261029313" duration="2192000" />
+      <workItem from="1586332745740" duration="2095000" />
+      <workItem from="1586341831261" duration="3380000" />
+      <workItem from="1586348582108" duration="1438000" />
+      <workItem from="1586364402953" duration="2663000" />
+      <workItem from="1586765339053" duration="16425000" />
+      <workItem from="1586854422379" duration="3952000" />
+      <workItem from="1586859019269" duration="151000" />
+      <workItem from="1586859184038" duration="1388000" />
+      <workItem from="1586862247175" duration="1698000" />
+      <workItem from="1586940921412" duration="4530000" />
+      <workItem from="1587029086810" duration="373000" />
+      <workItem from="1587032150161" duration="1541000" />
+      <workItem from="1587125706546" duration="5459000" />
+      <workItem from="1587149312792" duration="696000" />
+      <workItem from="1587404828475" duration="624000" />
+      <workItem from="1587496859683" duration="1914000" />
+      <workItem from="1587498809961" duration="1895000" />
+      <workItem from="1587660436776" duration="12534000" />
+      <workItem from="1587840722432" duration="6002000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="199" key="#Project_Structure" timestamp="1586365350815">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="533" y="199" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586365350815" />
+    <state x="432" y="199" key="#SQL_Dialects" timestamp="1586772853499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="432" y="199" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1586772853499" />
+    <state x="1118" y="493" key="#Tomcat_Server" timestamp="1587499409416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1118" y="493" key="#Tomcat_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1587499409416" />
+    <state x="1143" y="404" key="#Web_Browsers" timestamp="1587498870792">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1143" y="404" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1587498870792" />
+    <state x="671" y="296" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1587674771759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="671" y="296" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587674771759" />
+    <state x="635" y="200" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog" timestamp="1587844386430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="635" y="200" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587844386430" />
+    <state x="794" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587500382123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587500382123" />
+    <state x="746" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1587674791949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="746" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587674791949" />
+    <state x="672" y="313" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586947281152">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="313" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586947281152" />
+    <state x="668" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587671267283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587671267283" />
+    <state x="671" y="284" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586946936063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="671" y="284" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586946936063" />
+    <state x="721" y="295" key="FileChooserDialogImpl" timestamp="1587499405969">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="295" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587499405969" />
+    <state width="1774" height="260" key="GridCell.Tab.0.bottom" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state width="1774" height="260" key="GridCell.Tab.0.center" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state width="1774" height="260" key="GridCell.Tab.0.left" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state width="1774" height="260" key="GridCell.Tab.0.right" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state width="1774" height="260" key="GridCell.Tab.1.bottom" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state width="1774" height="260" key="GridCell.Tab.1.center" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state width="1774" height="260" key="GridCell.Tab.1.left" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state width="1774" height="260" key="GridCell.Tab.1.right" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state width="1774" height="260" key="GridCell.Tab.2.bottom" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state width="1774" height="260" key="GridCell.Tab.2.center" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state width="1774" height="260" key="GridCell.Tab.2.left" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state width="1774" height="260" key="GridCell.Tab.2.right" timestamp="1587848332132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1774" height="260" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587848332132" />
+    <state x="421" y="115" key="SettingsEditor" timestamp="1587498797330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="421" y="115" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587498797330" />
+    <state x="817" y="431" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586773222530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="817" y="431" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586773222530" />
+    <state x="742" y="371" width="398" height="330" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1586769494186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="371" width="398" height="330" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586769494186" />
+    <state x="1010" y="167" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1586365742418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1010" y="167" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586365742418" />
+    <state x="803" y="290" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1586773208166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="290" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586773208166" />
+    <state x="646" y="439" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586767286197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="646" y="439" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1586767286197" />
+    <state x="712" y="258" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587032424834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="258" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587032424834" />
+    <state x="324" y="157" key="new project wizard" timestamp="1587498242107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="324" y="157" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587498242107" />
+    <state x="503" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1586261837487">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="503" y="257" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586261837487" />
+    <state x="621" y="230" key="spring file set editor" timestamp="1586334654966">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="621" y="230" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1586334654966" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/johnpank/notestorage/dao/UserDAOImplTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

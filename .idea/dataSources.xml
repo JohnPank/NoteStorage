@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="note_storage_db" uuid="68f43da5-0570-41c7-829e-e5d45b695725">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/note_storage_db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="db_for_tests" uuid="cd8741eb-4a7c-4cc4-b302-be6c8f5bdcc2">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:default</jdbc-url>
+    </data-source>
+  </component>
+</project>
